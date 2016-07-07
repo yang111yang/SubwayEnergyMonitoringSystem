@@ -1,4 +1,4 @@
-package com.jiaochuan.test;
+package com.jiaochuan.subwayenergymonitoringsystem;
 
 import org.junit.Test;
 

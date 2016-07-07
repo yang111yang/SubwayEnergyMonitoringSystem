@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="theme_press">#ff3979ca</item>
+    <item type="drawable" name="trans">#00ffffff</item>
+</resources>

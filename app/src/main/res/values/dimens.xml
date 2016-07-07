@@ -23,4 +23,6 @@
     <dimen name="sp16">16sp</dimen>
     <dimen name="sp18">18sp</dimen>
     <dimen name="sp26">26sp</dimen>
+    <dimen name="title_container_height">49.0dip</dimen>
+    <dimen name="title">18.0dip</dimen>
 </resources>

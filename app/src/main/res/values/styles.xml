@@ -8,4 +8,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="title_container_theme">
+        <item name="android:background">@color/theme</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_container_height</item>
+    </style>
+    <style name="title_back_btn_theme">
+        <item name="android:textSize">@dimen/title</item>
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/title_bg</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:drawableLeft">@drawable/title_back_icon</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+
+
+
+
 </resources>

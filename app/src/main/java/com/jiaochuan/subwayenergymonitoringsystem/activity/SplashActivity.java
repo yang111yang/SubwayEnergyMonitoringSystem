@@ -1,9 +1,12 @@
-package com.jiaochuan.test;
+package com.jiaochuan.subwayenergymonitoringsystem.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.KeyEvent;
+
+import com.jiaochuan.subwayenergymonitoringsystem.R;
 
 /**
  * Created by Administrator on 2016/7/5.
@@ -15,23 +18,14 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
 
-        start();
-    }
-
-    public void start(){
-        new Thread(){
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                try {
-                    Thread.sleep(3000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
                 Intent i = new Intent(SplashActivity.this,LoginActivity.class);
                 startActivity(i);
                 finish();
             }
-        }.start();
+        },3000);
     }
 
     @Override

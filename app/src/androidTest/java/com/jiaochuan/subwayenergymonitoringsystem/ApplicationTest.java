@@ -1,4 +1,4 @@
-package com.jiaochuan.test;
+package com.jiaochuan.subwayenergymonitoringsystem;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
